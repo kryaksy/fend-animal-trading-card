@@ -1,0 +1,98 @@
+/* add your CSS here */
+
+body {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+
+.card {
+  margin: 100px;
+  width: 300px;
+  color: white;
+  background-color: #333;
+}
+
+p, li {
+  font-size: 9pt;
+  font-weight: 100;
+}
+
+li {
+  color: lightslategray
+}
+
+h3 {
+  margin: 0px;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+  width: 298px;
+}
+
+a {
+  text-decoration: none;
+  color: chocolate
+}
+
+a:visited {
+  color: lightslategray
+}
+
+/* The CSS should apply these styles to match the design prototype:
+- italicized text for the animal's interesting fact */
+
+.info {
+  font-style: italic;
+}
+
+/* - bolded labels for the animal's list items (e.g. 'Habitat') */
+
+span {
+  font-weight: 600;
+  color: white;
+}
+
+/* - no dots for the animal's list items */
+
+li {
+  list-style: none;
+}
+
+/* - border around the animal's name, image, and information */
+
+h3 {
+  border: solid 1px black;
+}
+
+img {
+  border: solid 1px black;
+}
+
+.content {
+  border: solid 1px black;
+}
+
+/* - border around the animal's information */
+
+.info {
+  border: solid 1px white;
+}
+
+/* - spacing between the animal's name, image, and information (you will need to use the property padding)  */
+
+h3 {
+  padding: 5px 0px;
+}
+
+.content {
+  padding: 15px 15px 15px 20px;
+}
+
+.info {
+  padding: 5px;
+}
